@@ -5,8 +5,10 @@
 # 123454321
 # ...
 
-n = 5
-for i in range(n):
-    print(i + 1, end="")
-for i in range(n-2, -1, -1):
-    print(i + 1, end="")
+k = int(input())
+for j in range(1, k + 1):
+    for i in range(j):
+        print(i + 1, end="")
+    for i in range(j - 2, -1, -1):
+        print(i + 1, end="")
+    print()
