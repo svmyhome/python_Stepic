@@ -1,7 +1,0 @@
-print(f'Addition 2 + 2 = {2 + 2}')
-print(f'Subtraction 2 - 1 = {2 - 1}')
-print(f'Multiplication 2 * 2 = {2 * 2}')
-print(f'Dividing 4 / 2 = {4 / 2}')
-print(f'Division with rounding to the smallest integer 5 // 2 = {5 // 2}')
-print(f'Residue from division 3 % 2 = {3 % 2}')
-print(f'Elevation 2 ** 3 = {2 ** 3}')
