@@ -1,13 +1,13 @@
 A = 1
 B = A
-print(f'A and B are references to the same object A = {id(A)}, B = {id(B)}')
+print(f"A and B are references to the same object A = {id(A)}, B = {id(B)}")
 
 C = 2
 D = 3
-print(f'C and D are references to the different object C = {id(C)}, D = {id(D)}')
+print(f"C and D are references to the different object C = {id(C)}, D = {id(D)}")
 
 C, D = D, C
-print(f'The references changed C = {id(C)}, D = {id(D)}')
+print(f"The references changed C = {id(C)}, D = {id(D)}")
 
 
 print(2 + 3)
@@ -17,8 +17,6 @@ print(1_000_000)
 
 THIS_IS_CONST = 1000
 print(THIS_IS_CONST)
-
-
 
 
 # input values
