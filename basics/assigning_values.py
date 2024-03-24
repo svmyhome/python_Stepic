@@ -23,5 +23,11 @@ print(THIS_IS_CONST)
 
 # input values
 
-s1, s2 = map(str.strip, input().split())
+s1, s2 = input().split()
 print(s1, s2)
+
+s3, s4 = map(str.strip, input().split())
+print(s1, s2)
+
+lst = map(str.strip, input().split())
+print(lst)
